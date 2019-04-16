@@ -1,0 +1,12 @@
+name: Finance
+title: Finance
+username:
+account: nutorbit
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 570497
+bundleId: 1700528
+url: https://nutorbit.shinyapps.io/Finance/
+when: 1542204853.11894
+asMultiple: FALSE
+asStatic: FALSE

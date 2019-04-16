@@ -1,0 +1,41 @@
+---
+title: "Financial Analysis (AIS)"
+output: 
+  flexdashboard::flex_dashboard:
+    navbar:
+      - { title: "AIS", href: "http://www.ais.co.th/index.html", align: left }
+      - { title: "DTAC", href: "http://www.dtac.co.th/home.html", align: left}
+      - { title: "TRUE", href: "http://truemoveh.truecorp.co.th/?ln=th", align: left}
+      - { title: "Summary", href: "", align: left}
+runtime: shiny
+---
+
+
+
+
+```{r setup, include=FALSE}
+# import
+library(leaflet)
+```
+
+Column { data-width=720 }
+-------------------------------------
+
+### Signal
+
+![](./images/AIS.png)
+
+
+
+Column { .tabset }
+-------------------------------------
+   
+### Chart 2
+
+
+
+### Chart 3
+    
+```{r}
+```
+
